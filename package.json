@@ -1,0 +1,22 @@
+{
+  "name": "locks",
+  "version": "1.0.0",
+  "description": "locks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queegvard/locks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queegvard/locks/issues"
+  },
+  "homepage": "https://github.com/queegvard/locks#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
