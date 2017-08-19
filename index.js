@@ -6,7 +6,9 @@ app.get('/', function (req, res) {
   res.send(linkIndex)
 })
 
+
 app.use(express.static('public'));
+app.use('/assets', express.static(__dirname + '/assets'));
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')

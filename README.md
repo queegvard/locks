@@ -18,4 +18,6 @@ locks
   * `touch public/name_of_new_page`
   * Add markup to that new file
   * add the url `http://localhost:3000/name_of_new_page` to the list for the `/` endpoint in index.js
-  * run `node index.js` and view it in the browser.
+  * run `node index.js` and view it in the browser.  
+
+  There is another statically hosted folder called `assets/` You should put images, svgs, media, etc in this folder to separate it from the markup.
